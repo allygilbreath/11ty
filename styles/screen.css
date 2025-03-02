@@ -1,50 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
+    background: #1B0033; 
+    color: #D1B3FF; 
     text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+
 nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
+    background: #4B0082; 
+    padding: 15px;
+    width: 100%;
+    text-align: center;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0;
+    justify-content: center;
     padding: 0;
 }
 
 nav ul li {
     list-style-type: none;
-    margin: 0;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
+    color: #E0AFFF; 
+    font-size: 1.5em; 
 }
+
 
 h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5em; 
+    color: #BA55D3; 
+    margin: 20px 0;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em; 
+    color: #DDA0DD; 
+    margin-bottom: 10px;
 }
 
-img.about {
-    opacity: 0.5;
+
+main {
+    max-width: 900px;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.8em; 
+}
+
+/* Footer */
+footer {
+    font-size: 1.2em; 
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #DDA0DD;
 }
